@@ -175,36 +175,43 @@ const Home = () => {
 
   return (
     <>
-    <div className='background-img'></div>
-      <div data-aos="fade-down" className='menu-container'>
+    <div className='main-container bg_color'>
+      <div className='menu-container' data-aos="fade-down" >
         <div className='menu-logo'>
           <p>LOGO</p> 
         </div>
-        <div>
           <div className={`logo ${isActive ? 'active' : ''}`} onClick={toggleMenu}>
             <div className="bar"></div>
             <div className="bar"></div>
             <div className="bar"></div>
-          </div>
         </div> 
       </div>
+      
       <div className={`menu-links ${isActive ? 'active' : ''}`}>
         <ul>
-          <li>HOME</li>
-          <li>ABOUT</li>
-          <li>PROJECTS</li>
-          <li>CONTACT</li>
+          <li>Home</li>
+          <li>About</li>
+          <li>Projects</li>
+          <li>Contact</li>
         </ul>
       </div>
       <div className='description-container'>
         <div className='description-content'>
-          <spa>HELLO, I&apos;M BRIAN <br /> FRONT END DEVELOPER</spa>
+          <span>BRIAN</span>
+          <span>PROGRAMMER</span>
+          <span>FRONT END DEVELOPER</span>
         </div>
-        {/* <div className='circle parallax-image'>
-          
-        </div> */}
-      </div>
 
+      </div>
+      </div>
+      {/* <div className='description-container'>
+        <div className='description-content'>
+          <span>BRIAN</span>
+          <span>PROGRAMMER</span>
+          <span>FRONT END DEVELOPER</span>
+        </div>
+
+      </div> */}
       <div data-aos="fade-right" className='social-container'>
         <div className='social-icon'>
           <img src={linkedin} alt='Linkedin'/>
@@ -213,19 +220,27 @@ const Home = () => {
           <img src={github} alt='Github'/>
         </div>
       </div>
-
       {/* <div className="parallax-container">
         <img className="parallax-image" src={parallax} alt="Parallax Image" />
       </div> */}
-
+      <div className='main-container'>
       <div className='about-container section'>
+      <div className='about-content'>
         <p>About section</p>
+        <h4>Hello, I&apos;m Brian, a university-trained programming technician. With a curious and perfectionist nature, I am always eager to expand my knowledge. My passion for technology has motivated me to pursue various courses and engage in personal projects alongside my university studies. Now that I have successfully completed my academic journey, I am actively seeking an opportunity to contribute to the world of technology. If you have any potential opportunities available, please don&apos;t hesitate to contact me.</h4>
+        </div>
+        <div className='about-content'>
+        <h4>Hello, I&apos;m Brian, a university-trained programming technician. With a curious and perfectionist nature, I am always eager to expand my knowledge. My passion for technology has motivated me to pursue various courses and engage in personal projects alongside my university studies. Now that I have successfully completed my academic journey, I am actively seeking an opportunity to contribute to the world of technology. If you have any potential opportunities available, please don&apos;t hesitate to contact me.</h4>
+        </div>
       </div>
       <div className='projects-container section'>
         <p>Projects section</p>
+        <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam expedita atque modi, distinctio excepturi accusamus consectetur temporibus labore sit voluptate nulla? Fugiat dolore possimus, molestias sapiente quae nam, fugit ducimus adipisci ipsam assumenda delectus autem aut impedit a corporis similique numquam maxime deleniti sed. At eveniet exercitationem animi placeat voluptas eius harum quia corporis. Repudiandae ducimus eveniet nam odit mollitia rem a, maxime consectetur hic laborum natus optio doloribus ipsum excepturi accusamus cum quidem laudantium sed facilis veritatis animi? Optio, necessitatibus! Explicabo voluptate sint exercitationem, optio molestiae est earum cum dicta expedita quo quaerat molestias quia incidunt ullam delectus! Molestiae?</h4>
       </div>
       <div className='education-container section'>
         <p>Education section</p>
+        <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam expedita atque modi, distinctio excepturi accusamus consectetur temporibus labore sit voluptate nulla? Fugiat dolore possimus, molestias sapiente quae nam, fugit ducimus adipisci ipsam assumenda delectus autem aut impedit a corporis similique numquam maxime deleniti sed. At eveniet exercitationem animi placeat voluptas eius harum quia corporis. Repudiandae ducimus eveniet nam odit mollitia rem a, maxime consectetur hic laborum natus optio doloribus ipsum excepturi accusamus cum quidem laudantium sed facilis veritatis animi? Optio, necessitatibus! Explicabo voluptate sint exercitationem, optio molestiae est earum cum dicta expedita quo quaerat molestias quia incidunt ullam delectus! Molestiae?</h4>
+      </div>
       </div>
     </>
   );
