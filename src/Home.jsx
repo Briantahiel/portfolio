@@ -175,6 +175,7 @@ const Home = () => {
 
   return (
     <>
+    <div className='background-img'></div>
       <div data-aos="fade-down" className='menu-container'>
         <div className='menu-logo'>
           <p>LOGO</p> 
@@ -195,11 +196,13 @@ const Home = () => {
           <li>CONTACT</li>
         </ul>
       </div>
-
       <div className='description-container'>
-        <div className='description-content parallax-image'>
-          <h5>HELLO, I&apos;M BRIAN <br /> FRONT END DEVELOPER</h5>
+        <div className='description-content'>
+          <spa>HELLO, I&apos;M BRIAN <br /> FRONT END DEVELOPER</spa>
         </div>
+        {/* <div className='circle parallax-image'>
+          
+        </div> */}
       </div>
 
       <div data-aos="fade-right" className='social-container'>
