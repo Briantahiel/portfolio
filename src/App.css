@@ -8,25 +8,83 @@ body{
   padding: 0;
   margin: 0;
   font-family: 'Kanit', sans-serif;
+  overflow-x: hidden;
 }
 h4 {
-  font-weight: 300;
+  font-weight: 400;
   font-family: 'Poppins';
+  color: black;
 }
 .about-container {
   max-width: 1200px;
+  margin: auto;
+  user-select: none;
+  min-height: 100vh;
+  display: flex;
+}
+
+#container-about {
   flex-wrap: wrap;
-  height: auto;
+  width: 100%;
   margin: auto;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: greenyellow;
 }
 .about-content {
   margin: auto;
+  padding: 20px;
   max-width: 540px;
 }
+.img-content {
+  margin: auto;
+  padding: 20px;
+  max-width: 540px;
+}
+.img_section {
+  width: 300px;
+  min-height: 300px;
+  background-image: url('./assets/computer.png');
+  background-size: cover;
+  object-fit: cover;
+}
+
+.img-content .cat {
+  position: relative;
+  z-index: -1;
+  left: 35%;
+  width: 95px;
+  height: 100%;
+}
+.img-content:hover .question {
+  opacity: 1;
+  transition: .8s ease-in-out;
+}
+.img-content .question {
+  position: relative;
+  opacity: 0;
+  transition: .8s ease-in-out;
+  left: 150px;;
+  width: 30px;
+  height: 30px;
+}
+
+/* .main-container {
+  overflow-y: hidden;
+  overflow: hidden;
+  height: 100vh;
+} */
+.custom-cursor {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('./assets/thread.png');
+  pointer-events: none; 
+  z-index: 1;
+  overflow: hidden;
+  overflow-x: hidden;
+}
+
 .wrapper {
   width: 100%;
   height: 100%;
@@ -230,9 +288,10 @@ h4 {
   background-color: #171321; 
   backdrop-filter: blur(1px);
   color: white;
+  overflow-x: hidden;
 }
 
-.menu-links li {
+/* .menu-links li {
   cursor: pointer;
   height: 100px;
   margin: 20px;
@@ -240,10 +299,16 @@ h4 {
   text-align: right;
   list-style: none;
   color: white;
-}
+} */
 
-.menu-links li:hover {
+.menu-links a:hover {
   letter-spacing: 2px;
+  transition: 0.3s ease-in-out;
+}
+.menu-links a {
+  transition: 0.3s ease-in-out;
+  color: white;
+  text-decoration: none;
 }
 .menu-logo p {
   margin: 20px;
@@ -267,14 +332,13 @@ h4 {
 .menu-links ul {
   max-height: 300px;
   overflow: hidden;
-  transition: 0.3s ease-in-out;
   opacity: 0;
   margin: auto;
   display: flex;
   flex-direction: column;
   background-color: #171321; 
   position: relative;
-   border-bottom: 5px solid #8682D9;
+  border-bottom: 5px solid #f3ac42;
   /* border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px; */
 }
@@ -282,10 +346,11 @@ h4 {
 .menu-links ul li {
   opacity: 0;
   font-size: 1.2rem;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  margin: 20px 40px;
+  text-align: right;
+  list-style: none;
+
 }
 .active ul {
   opacity: 1;
@@ -468,6 +533,8 @@ h4 {
 } */
 /*/////////////////////////*/
 
-.main-container{
+/* .main-container{
   height: 100vh;
-}
+  overflow-x: hidden;
+  overflow-y: hidden;
+} */
