@@ -17,6 +17,22 @@ import gitIcon from "./assets/git.png";
 import bootstrapIcon from "./assets/bootstrap.png";
 import reactIcon from "./assets/react.png";
 import sassIcon from "./assets/sass.png";
+import consultorio from "./assets/consultorio.png";
+import hangman from "./assets/hangman.jpg";
+import marvel from "./assets/marvel.jpg";
+import videogames from "./assets/videogames.jpg";
+import app2d2 from "./assets/app2d2.jpg";
+import rps from "./assets/rps.jpg";
+import crud from "./assets/crud.jpg";
+import encriptador from "./assets/encriptador.jpg";
+import weather from "./assets/weather.jpg";
+import imax from "./assets/imax.jpg";
+import resto from "./assets/resto.jpg";
+import ecommerce from "./assets/ecommerce.jpg";
+import calculator from "./assets/calculator.jpg";
+import portfolio from "./assets/portfolio.jpg";
+import tecnostore from "./assets/tecnoStore.jpg";
+
 // import bootstrapIcon from "./assets/bootstrap.png";
 
 const Home = () => {
@@ -100,7 +116,7 @@ const Home = () => {
     <div className='main-container bg_color'>
       <div className='menu-container' data-aos="fade-down" >
         <div className='menu-logo'>
-          <p>LOGO</p> 
+          <p>BMG</p> 
         </div>
           <div className={`logo ${isActive ? 'active' : ''}`} onClick={toggleMenu}>
             <div className="bar"></div>
@@ -195,9 +211,175 @@ const Home = () => {
         </div>
         <br />
       </div>
-      <div className='education-container'>
-        <p>Education section</p>
-        <h4></h4>
+      <div className='projects-container' id='projects'>
+        <h1>Projects</h1>
+        <div className='project-card_container'>
+          <div className='project-card'>
+            <img src={consultorio} alt='Consultorio Dentista'/>
+            <div className="overlay">
+              <div>
+                <a href='#'>Private Github</a>
+              </div>
+              <div>
+                {/* <a href='#'>Demo</a> */}
+              </div>
+            </div>
+          </div>
+          <div className='project-card'>
+            <img src={hangman} alt='Hangman'/>
+            <div className="overlay">
+              <div>
+                <a href='https://github.com/Briantahiel/Hangman' target="_blank" rel="noopener noreferrer">Github</a>
+              </div>
+              <div>
+              <a href="https://briantahiel.github.io/Hangman/" target="_blank" rel="noopener noreferrer">Demo</a>
+              </div>
+            </div>
+          </div>
+          <div className='project-card'>
+            <img src={marvel} alt='Marvel Api'/>
+            <div className="overlay">
+              <div>
+                <a href='https://github.com/Briantahiel/MarvelApi' target="_blank" rel="noopener noreferrer">Github</a>
+              </div>
+              <div>
+                <a href='https://silver-selkie-4b5577.netlify.app/' target="_blank" rel="noopener noreferrer">Demo</a>
+              </div>
+            </div>
+            </div>
+            <div className='project-card'>
+            <img src={videogames} alt='Video games'/>
+            <div className="overlay">
+              <div>
+                <a href='https://github.com/Briantahiel/CSS_grid_layouts' target="_blank" rel="noopener noreferrer">Github</a>
+              </div>
+              <div>
+                <a href='https://briantahiel.github.io/CSS_grid_layouts/' target="_blank" rel="noopener noreferrer">Demo</a>
+              </div>
+            </div>
+            </div>
+            <div className='project-card'>
+            <img src={app2d2} alt='Landing Page'/>
+            <div className="overlay">
+              <div>
+                <a href='https://github.com/Briantahiel/Responsive_Layouts' target="_blank" rel="noopener noreferrer">Github</a>
+              </div>
+              <div>
+                <a href='https://briantahiel.github.io/Responsive_Layouts/' target="_blank" rel="noopener noreferrer">Demo</a>
+              </div>
+            </div>
+            </div>
+            <div className='project-card'>
+            <img src={rps} alt='Rock Paper Scissors'/>
+            <div className="overlay">
+              <div>
+                <a href='https://github.com/Briantahiel/Rock_paper_scissors' target="_blank" rel="noopener noreferrer">Github</a>
+              </div>
+              <div>
+                <a href='https://meek-shortbread-55732c.netlify.app/' target="_blank" rel="noopener noreferrer">Demo</a>
+              </div>
+            </div>
+            </div>
+            <div className='project-card'>
+            <img src={crud} alt='Crud'/>
+            <div className="overlay">
+              <div>
+                <a href='https://github.com/Briantahiel/Notes' target="_blank" rel="noopener noreferrer">Github</a>
+              </div>
+              <div>
+                <a href='https://briantahiel.github.io/Notes/' target="_blank" rel="noopener noreferrer">Demo</a>
+              </div>
+            </div>
+            </div>
+            <div className='project-card'>
+            <img src={encriptador} alt='Encriptador'/>
+            <div className="overlay">
+              <div>
+                <a href='https://github.com/Briantahiel/encryptor' target="_blank" rel="noopener noreferrer">Github</a>
+              </div>
+              <div>
+                <a href='https://briantahiel.github.io/encryptor/' target="_blank" rel="noopener noreferrer">Demo</a>
+              </div>
+            </div>
+            </div>
+            <div className='project-card'>
+            <img src={weather} alt='Weather'/>
+            <div className="overlay">
+              <div>
+                <a href='https://github.com/Briantahiel/WeatherApp' target="_blank" rel="noopener noreferrer">Github</a>
+              </div>
+              <div>
+                <a href='https://incredible-beijinho-896f42.netlify.app/' target="_blank" rel="noopener noreferrer">Demo</a>
+              </div>
+            </div>
+            </div>
+            <div className='project-card'>
+            <img src={imax} alt='Landing Page'/>
+            <div className="overlay">
+              <div>
+                <a href='https://github.com/Briantahiel/ImaxVentasGit' target="_blank" rel="noopener noreferrer">Github</a>
+              </div>
+              <div>
+                <a href='https://fancy-muffin-e118ab.netlify.app/' target="_blank" rel="noopener noreferrer">Demo</a>
+              </div>
+            </div>
+            </div>
+            <div className='project-card'>
+            <img src={resto} alt='Landing Page'/>
+            <div className="overlay">
+              <div>
+                <a href='https://github.com/Briantahiel/Bar' target="_blank" rel="noopener noreferrer">Github</a>
+              </div>
+              <div>
+                <a href='https://neon-souffle-2902c9.netlify.app/' target="_blank" rel="noopener noreferrer">Demo</a>
+              </div>
+            </div>
+            </div>
+            <div className='project-card'>
+            <img src={ecommerce} alt='E-commerce'/>
+            <div className="overlay">
+              <div>
+                <a href='#' target="_blank" rel="noopener noreferrer">Private Github</a>
+              </div>
+              <div>
+                {/* <a href='https://neon-souffle-2902c9.netlify.app/' target="_blank" rel="noopener noreferrer">Demo</a> */}
+              </div>
+            </div>
+            </div>
+            <div className='project-card'>
+            <img src={calculator} alt='Calculator'/>
+            <div className="overlay">
+              <div>
+                <a href='https://briantahiel.github.io/Calculator/' target="_blank" rel="noopener noreferrer">Github</a>
+              </div>
+              <div>
+                <a href='https://github.com/Briantahiel/Calculator' target="_blank" rel="noopener noreferrer">Demo</a>
+              </div>
+            </div>
+            </div>
+            <div className='project-card'>
+            <img src={portfolio} alt='Calculator'/>
+            <div className="overlay">
+              <div>
+                <a href='#' target="_blank" rel="noopener noreferrer">Private Github</a>
+              </div>
+              <div>
+                {/* <a href='https://github.com/Briantahiel/Calculator' target="_blank" rel="noopener noreferrer">Demo</a> */}
+              </div>
+            </div>
+            </div>
+            <div className='project-card'>
+            <img src={tecnostore} alt='TecnoStore'/>
+            <div className="overlay">
+              <div>
+                <a href='https://github.com/No-Country/c6-22' target="_blank" rel="noopener noreferrer">Github</a>
+              </div>
+              <div>
+                <a href='https://tecno-store.vercel.app/' target="_blank" rel="noopener noreferrer">Demo</a>
+              </div>
+            </div>
+            </div>
+        </div>
       </div>
     </>
   );

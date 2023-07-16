@@ -557,13 +557,13 @@ h4 {
   height: 62px;
   filter: drop-shadow(0 0 0 #171321);
   transition: .3 ease-in-out;
-  filter: drop-shadow(0px 0px 0px hotpink);
+  filter: drop-shadow(1px 0px 0px hotpink);
 }
 .icons img:hover {
   transform: scale(1.1);
   transform: translateX(-2px);
   transition: .3s ease-in-out;
-  filter: drop-shadow(2px 0px 0px hotpink);
+  filter: drop-shadow(2px -1px 0px hotpink);
 }
 .text-overlay {
   position: absolute;
@@ -591,4 +591,58 @@ h4 {
   padding: 6px 8px;
   width: 50px;
   height: 50px;
+}
+/*///////PROJECTS///////////*/
+.projects-container {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+.project-card_container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.project-card img {
+  width: 310px;
+  height: 190px;
+  display: block;
+}
+.project-card {
+  position: relative;
+  margin: 10px;
+}
+
+/* .project-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+} */
+
+.project-card .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 310px;
+  height: 190px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.project-card:hover .overlay {
+  opacity: 1;
+}
+
+.project-card .overlay div {
+  margin-bottom: 10px;
+}
+
+.project-card .overlay a {
+  color: #fff;
+  text-decoration: none;
 }
