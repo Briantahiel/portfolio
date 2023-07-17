@@ -142,10 +142,10 @@ const Home = () => {
       </div>
       <div data-aos="fade-right" className='social-container'>
         <div className='social-icon'>
-          <img src={linkedin} alt='Linkedin'/>
+          <a href='https://www.linkedin.com/in/brian-g%C3%B3mez/' target="_blank" rel="noopener noreferrer"><img src={linkedin} alt='Linkedin'/></a>
         </div>
         <div className='social-icon'>
-          <img src={github} alt='Github'/>
+          <a href='https://github.com/Briantahiel' target="_blank" rel="noopener noreferrer"><img src={github} alt='Github'/></a>
         </div>
       </div>
       {/* <div className="parallax-container">
