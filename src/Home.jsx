@@ -155,7 +155,7 @@ const Home = () => {
       <div id='container-about'>
       <div className='about-content about_text' data-aos="fade-right" >
         <h1>About me.</h1>
-        <h4><strong>Hello, I&apos;m Brian</strong>, a university-trained programming technician. With a curious and perfectionist nature, I am always eager to expand my knowledge. My passion for technology has motivated me to pursue various courses and engage in personal projects alongside my university studies. Now that I have successfully completed my academic journey, I am actively seeking an opportunity to contribute to the world of technology. If you have any potential opportunities available, please don&apos;t hesitate to contact me.</h4>
+        <h4><strong>Hello, I&apos;m Brian</strong>, a university-trained programming technician. With a curious and perfectionist nature, I am always eager to expand my knowledge. My passion for technology has motivated me to pursue various courses and engage in personal projects alongside my university studies. Now that I have successfully completed my academic journey, I am actively seeking an opportunity to contribute to the world of technology. If you have any potential opportunities available, please don&apos;t hesitate to contact me <span><a href='https://www.linkedin.com/in/brian-g%C3%B3mez/' target="_blank" rel="noopener noreferrer">here</a></span> .</h4>
         </div>
         <div className='img-content img_section'>
     
