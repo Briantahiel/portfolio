@@ -32,6 +32,7 @@ import ecommerce from "./assets/ecommerce.jpg";
 import calculator from "./assets/calculator.jpg";
 import portfolio from "./assets/portfolio.jpg";
 import tecnostore from "./assets/tecnoStore.jpg";
+import materialui from "./assets/materialUI.svg";
 
 // import bootstrapIcon from "./assets/bootstrap.png";
 
@@ -155,7 +156,7 @@ const Home = () => {
       <div id='container-about'>
       <div className='about-content about_text' data-aos="fade-right" >
         <h1>About me.</h1>
-        <h4><strong>Hello, I&apos;m Brian</strong>, a university-trained programming technician. With a curious and perfectionist nature, I am always eager to expand my knowledge. My passion for technology has motivated me to pursue various courses and engage in personal projects alongside my university studies. Now that I have successfully completed my academic journey, I am actively seeking an opportunity to contribute to the world of technology. If you have any potential opportunities available, please don&apos;t hesitate to contact me <span><a href='https://www.linkedin.com/in/brian-g%C3%B3mez/' target="_blank" rel="noopener noreferrer">here</a></span> .</h4>
+        <h4><strong>Hello, I&apos;m Brian</strong>, a university-trained programming technician. With a curious and perfectionist nature, I am always eager to expand my knowledge. My passion for technology has motivated me to pursue various courses and engage in personal projects alongside my university studies. Now that I have successfully completed my academic journey, I am actively seeking an opportunity to contribute to the world of technology. If you have any potential opportunities available, please don&apos;t hesitate to contact me <a href='https://www.linkedin.com/in/brian-g%C3%B3mez/' target="_blank" rel="noopener noreferrer">here.</a> Or you can check out my <a href='https://github.com/Briantahiel' target="_blank" rel="noopener noreferrer">Github.</a></h4>
         </div>
         <div className='img-content img_section'>
     
@@ -196,6 +197,10 @@ const Home = () => {
             <img src={bootstrapIcon} alt='Bootstrap'/>
             <div className="text-overlay">Bootstrap</div>
           </div>
+          <div className='icon-img'>
+            <img src={materialui} alt='Material UI'/>
+            <div className="text-overlay">MaterialUI</div>
+          </div>
           <div className='icon-img' id='sass'>
             <img src={sassIcon} alt='Sass'/>
             <div className="text-overlay">Sass</div>
@@ -214,6 +219,7 @@ const Home = () => {
       <div className='projects-container' id='projects'>
         <h1>Projects</h1>
         <div className='project-card_container'>
+        <div data-aos="fade-up" data-aos-duration="1000">
           <div className='project-card'>
             <img src={consultorio} alt='Consultorio Dentista'/>
             <div className="overlay">
@@ -221,10 +227,12 @@ const Home = () => {
                 <a href='#'>Private Github</a>
               </div>
               <div>
-                {/* <a href='#'>Demo</a> */}
+                <a href='/'>Coming Soon</a>
               </div>
             </div>
           </div>
+          </div>
+          <div data-aos="fade-up" data-aos-duration="1000">
           <div className='project-card'>
             <img src={hangman} alt='Hangman'/>
             <div className="overlay">
@@ -236,6 +244,8 @@ const Home = () => {
               </div>
             </div>
           </div>
+          </div>
+          <div data-aos="fade-up" data-aos-duration="1000">
           <div className='project-card'>
             <img src={marvel} alt='Marvel Api'/>
             <div className="overlay">
@@ -247,6 +257,8 @@ const Home = () => {
               </div>
             </div>
             </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000">
             <div className='project-card'>
             <img src={videogames} alt='Video games'/>
             <div className="overlay">
@@ -258,6 +270,8 @@ const Home = () => {
               </div>
             </div>
             </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000">
             <div className='project-card'>
             <img src={app2d2} alt='Landing Page'/>
             <div className="overlay">
@@ -269,6 +283,8 @@ const Home = () => {
               </div>
             </div>
             </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000">
             <div className='project-card'>
             <img src={rps} alt='Rock Paper Scissors'/>
             <div className="overlay">
@@ -280,6 +296,8 @@ const Home = () => {
               </div>
             </div>
             </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000">
             <div className='project-card'>
             <img src={crud} alt='Crud'/>
             <div className="overlay">
@@ -291,6 +309,8 @@ const Home = () => {
               </div>
             </div>
             </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000">
             <div className='project-card'>
             <img src={encriptador} alt='Encriptador'/>
             <div className="overlay">
@@ -302,6 +322,8 @@ const Home = () => {
               </div>
             </div>
             </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000">
             <div className='project-card'>
             <img src={weather} alt='Weather'/>
             <div className="overlay">
@@ -313,6 +335,8 @@ const Home = () => {
               </div>
             </div>
             </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000">
             <div className='project-card'>
             <img src={imax} alt='Landing Page'/>
             <div className="overlay">
@@ -324,6 +348,8 @@ const Home = () => {
               </div>
             </div>
             </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000">
             <div className='project-card'>
             <img src={resto} alt='Landing Page'/>
             <div className="overlay">
@@ -335,6 +361,8 @@ const Home = () => {
               </div>
             </div>
             </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000">
             <div className='project-card'>
             <img src={ecommerce} alt='E-commerce'/>
             <div className="overlay">
@@ -342,10 +370,12 @@ const Home = () => {
                 <a href='#' target="_blank" rel="noopener noreferrer">Private Github</a>
               </div>
               <div>
-                {/* <a href='https://neon-souffle-2902c9.netlify.app/' target="_blank" rel="noopener noreferrer">Demo</a> */}
+                <a href='/'>Coming Soon</a>
               </div>
             </div>
             </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000">
             <div className='project-card'>
             <img src={calculator} alt='Calculator'/>
             <div className="overlay">
@@ -357,6 +387,8 @@ const Home = () => {
               </div>
             </div>
             </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000">
             <div className='project-card'>
             <img src={portfolio} alt='Calculator'/>
             <div className="overlay">
@@ -364,10 +396,12 @@ const Home = () => {
                 <a href='#' target="_blank" rel="noopener noreferrer">Private Github</a>
               </div>
               <div>
-                {/* <a href='https://github.com/Briantahiel/Calculator' target="_blank" rel="noopener noreferrer">Demo</a> */}
+                <a href='/'>Coming Soon</a>
               </div>
             </div>
             </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000">
             <div className='project-card'>
             <img src={tecnostore} alt='TecnoStore'/>
             <div className="overlay">
@@ -379,8 +413,12 @@ const Home = () => {
               </div>
             </div>
             </div>
+            </div>
         </div>
       </div>
+      <footer>
+        <p>All rights reserved. Made with love.</p>
+      </footer>
     </>
   );
 }

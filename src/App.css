@@ -14,6 +14,9 @@ body{
 strong {
   color: #213547;
 }
+a {
+  color: inherit;
+}
 h1 {
   font-weight: 800;
 }
@@ -639,4 +642,11 @@ h4 {
 .project-card .overlay a {
   color: #fff;
   text-decoration: none;
+}
+footer {
+  background-color: #65B7D6;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  text-align: center;
 }
