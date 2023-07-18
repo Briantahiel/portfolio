@@ -130,7 +130,7 @@ const Home = () => {
           <li><a href="#">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          {/* <li><a href="#contact">Contact</a></li> */}
         </ul>
       </div>
       <div className='description-container'>
@@ -152,14 +152,14 @@ const Home = () => {
       {/* <div className="parallax-container">
         <img className="parallax-image" src={parallax} alt="Parallax Image" />
       </div> */}
-      <div className='about-container' id='about'>
+     <div id='about'></div> 
+      <div className='about-container'>
       <div id='container-about'>
       <div className='about-content about_text' data-aos="fade-right" >
         <h1>About me.</h1>
         <h4><strong>Hello, I&apos;m Brian</strong>, a university-trained programming technician. With a curious and perfectionist nature, I am always eager to expand my knowledge. My passion for technology has motivated me to pursue various courses and engage in personal projects alongside my university studies. Now that I have successfully completed my academic journey, I am actively seeking an opportunity to contribute to the world of technology. If you have any potential opportunities available, please don&apos;t hesitate to contact me <a href='https://www.linkedin.com/in/brian-g%C3%B3mez/' target="_blank" rel="noopener noreferrer">here.</a> Or you can check out my <a href='https://github.com/Briantahiel' target="_blank" rel="noopener noreferrer">Github.</a></h4>
         </div>
         <div className='img-content img_section'>
-    
           <img src={cat} className='parallax-image cat' alt='Cat'/>
           <img src={question} alt='Question mark' className='question'/>
         </div>
@@ -216,7 +216,8 @@ const Home = () => {
         </div>
         <br />
       </div>
-      <div className='projects-container' id='projects'>
+      <div id='projects'></div>
+      <div className='projects-container'>
         <h1>Projects</h1>
         <div className='project-card_container'>
         <div data-aos="fade-up" data-aos-duration="1000">

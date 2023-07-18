@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,600;0,700;0,800;0,900;1,700;1,800;1,900&display=swap');
 body{
   box-sizing: border-box;
+  user-select: none;
   padding: 0;
   margin: 0;
   font-family: 'Kanit', sans-serif;
@@ -290,17 +291,22 @@ h4 {
   display: none;
 } */
 .menu-container {
-  position: relative;
+  position: fixed;
   display: flex;
   justify-content: space-between;
   width: 100%;
-  z-index: 1;
+  z-index: 2;
   background-color: #171321; 
   backdrop-filter: blur(1px);
   color: white;
   overflow-x: hidden;
 }
-
+.menu-links {
+  position: fixed;
+  margin-top: 60px;
+  width: 100%;
+  z-index: 1;
+}
 /* .menu-links li {
   cursor: pointer;
   height: 100px;
@@ -433,6 +439,9 @@ h4 {
   line-height: 0.8;
   text-align: center;
 } */
+#about {
+  height: 40px;
+}
 .description-container span:nth-child(1) {
   /* font-size: 11vw; */
   font-size: 150px;
@@ -554,6 +563,7 @@ h4 {
   max-width: 1200px;
   margin: auto;
   text-align: center;
+  margin-bottom: 60px;
 }
 .icons img {
   width: 66px;
@@ -596,6 +606,9 @@ h4 {
   height: 50px;
 }
 /*///////PROJECTS///////////*/
+#projects {
+  height: 40px;
+}
 .projects-container {
   max-width: 1200px;
   margin: auto;
@@ -648,5 +661,6 @@ footer {
   display: flex;
   justify-content: center;
   height: 50px;
+  width: 100%;
   text-align: center;
 }
