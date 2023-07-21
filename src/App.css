@@ -19,6 +19,7 @@ a {
 }
 h1 {
   font-weight: 800;
+  text-align: center;
 }
 h4 {
   font-weight: 400;
@@ -350,10 +351,10 @@ h4 {
   transition: 0.3s ease-in-out;
 }
 #card-project:hover {
-  box-shadow: 7px 6px 36px -1px rgba(0,0,0,0.75);
-  -webkit-box-shadow: 7px 6px 36px -1px rgba(0,0,0,0.75);
-  -moz-box-shadow: 7px 6px 36px -1px rgba(0,0,0,0.75);
-  transform: translateX(-2px);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  transform: translateY(-1px);
 }
 .overlay {
   position: absolute;
@@ -365,9 +366,9 @@ h4 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
   visibility: hidden;
-  transition: opacity 0.3s ease;
+  transition: 0.3s ease;
 }
 .overlay a {
    color: whitesmoke;

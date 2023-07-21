@@ -220,7 +220,8 @@ const Home = () => {
         </div>
         <br />
       </div>
-
+      <div id='projects'></div>
+      <h1>Projects</h1>
       <div id='card-container'>
       <div id='card-project'>
       <Card sx={{ maxWidth: 310 }} >
@@ -507,10 +508,202 @@ const Home = () => {
        <Typography>
         <div className="overlay">
           <div>
-            <a href='https://github.com/Briantahiel/Rock_paper_scissors' target="_blank" rel="noopener noreferrer">Github</a>
+            <a href='https://github.com/Briantahiel/encryptor' target="_blank" rel="noopener noreferrer">Github</a>
           </div>
           <div>
-            <a href="https://meek-shortbread-55732c.netlify.app/" target="_blank" rel="noopener noreferrer">Demo</a>
+            <a href="https://briantahiel.github.io/encryptor/" target="_blank" rel="noopener noreferrer">Demo</a>
+          </div>
+        </div>
+       </Typography> 
+      </CardContent>
+    </Card>
+    </div>
+    <div id='card-project'>
+      <Card sx={{ maxWidth: 310 }} >
+      <CardMedia
+        component="img"
+        alt="Calculator"
+        height="100%"
+        image={calculator}
+      />
+      <CardContent >
+        <Typography gutterBottom variant="h6" component="div">
+          Calculator
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+        Crafted as part of a practical project. Experience seamless calculations with this user-friendly and efficient tool. Whether you&apos;re adding, subtracting, multiplying, or dividing, this calculator has got you covered. 
+        </Typography>
+        <hr/>
+        <Typography variant='subtitle2'>
+          HTML - CSS - JAVASCRIPT 
+        </Typography>
+       <Typography>
+        <div className="overlay">
+          <div>
+            <a href='https://briantahiel.github.io/Calculator/' target="_blank" rel="noopener noreferrer">Github</a>
+          </div>
+          <div>
+            <a href='https://github.com/Briantahiel/Calculator' target="_blank" rel="noopener noreferrer">Demo</a>
+          </div>
+        </div>
+       </Typography> 
+      </CardContent>
+    </Card>
+    </div>
+    <div id='card-project'>
+      <Card sx={{ maxWidth: 310 }} >
+      <CardMedia
+        component="img"
+        alt="Notes"
+        height="100%"
+        image={crud}
+      />
+      <CardContent >
+        <Typography gutterBottom variant="h6" component="div">
+          Notes
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+        Crafted as part of a practical project. Experience seamless calculations with this user-friendly and efficient tool. Whether you&apos;re adding, subtracting, multiplying, or dividing, this calculator has got you covered. 
+        </Typography>
+        <hr/>
+        <Typography variant='subtitle2'>
+          HTML - CSS - JAVASCRIPT - REACT
+        </Typography>
+       <Typography>
+        <div className="overlay">
+          <div>
+            <a href='https://github.com/Briantahiel/Notes' target="_blank" rel="noopener noreferrer">Github</a>
+          </div>
+          <div>
+            <a href='https://briantahiel.github.io/Notes/' target="_blank" rel="noopener noreferrer">Demo</a>
+          </div>
+        </div>
+       </Typography> 
+      </CardContent>
+    </Card>
+    </div>
+    <div id='card-project'>
+      <Card sx={{ maxWidth: 310 }} >
+      <CardMedia
+        component="img"
+        alt="Video Games"
+        height="100%"
+        image={videogames}
+      />
+      <CardContent >
+        <Typography gutterBottom variant="h6" component="div">
+          Notes
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+        Crafted as part of a practical project. Experience seamless calculations with this user-friendly and efficient tool. Whether you&apos;re adding, subtracting, multiplying, or dividing, this calculator has got you covered. 
+        </Typography>
+        <hr/>
+        <Typography variant='subtitle2'>
+          HTML - CSS 
+        </Typography>
+       <Typography>
+        <div className="overlay">
+          <div>
+            <a href='https://github.com/Briantahiel/CSS_grid_layouts' target="_blank" rel="noopener noreferrer">Github</a>
+          </div>
+          <div>
+            <a href='https://briantahiel.github.io/CSS_grid_layouts/' target="_blank" rel="noopener noreferrer">Demo</a>
+          </div>
+        </div>
+       </Typography> 
+      </CardContent>
+    </Card>
+    </div>
+    <div id='card-project'>
+      <Card sx={{ maxWidth: 310 }} >
+      <CardMedia
+        component="img"
+        alt="Restaurant"
+        height="100%"
+        image={resto}
+      />
+      <CardContent >
+        <Typography gutterBottom variant="h6" component="div">
+          Dantonio Restaurant
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+        Crafted as part of a practical project. Experience seamless calculations with this user-friendly and efficient tool. Whether you&apos;re adding, subtracting, multiplying, or dividing, this calculator has got you covered. 
+        </Typography>
+        <hr/>
+        <Typography variant='subtitle2'>
+          HTML - CSS 
+        </Typography>
+       <Typography>
+        <div className="overlay">
+          <div>
+            <a href='https://github.com/Briantahiel/Bar' target="_blank" rel="noopener noreferrer">Github</a>
+          </div>
+          <div>
+            <a href='https://neon-souffle-2902c9.netlify.app/' target="_blank" rel="noopener noreferrer">Demo</a>
+          </div>
+        </div>
+       </Typography> 
+      </CardContent>
+    </Card>
+    </div>
+    <div id='card-project'>
+      <Card sx={{ maxWidth: 310 }} >
+      <CardMedia
+        component="img"
+        alt="App2D2"
+        height="100%"
+        image={app2d2}
+      />
+      <CardContent >
+        <Typography gutterBottom variant="h6" component="div">
+          App2D2
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+        Crafted as part of a practical project. Experience seamless calculations with this user-friendly and efficient tool. Whether you&apos;re adding, subtracting, multiplying, or dividing, this calculator has got you covered. 
+        </Typography>
+        <hr/>
+        <Typography variant='subtitle2'>
+          HTML - CSS 
+        </Typography>
+       <Typography>
+        <div className="overlay">
+          <div>
+            <a href='https://github.com/Briantahiel/Responsive_Layouts' target="_blank" rel="noopener noreferrer">Github</a>
+          </div>
+          <div>
+            <a href='https://briantahiel.github.io/Responsive_Layouts/' target="_blank" rel="noopener noreferrer">Demo</a>
+          </div>
+        </div>
+       </Typography> 
+      </CardContent>
+    </Card>
+    </div>
+    <div id='card-project'>
+      <Card sx={{ maxWidth: 310 }} >
+      <CardMedia
+        component="img"
+        alt="IMAXVentas"
+        height="100%"
+        image={imax}
+      />
+      <CardContent >
+        <Typography gutterBottom variant="h6" component="div">
+          IMAXVentas
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+        Crafted as part of a practical project. Experience seamless calculations with this user-friendly and efficient tool. Whether you&apos;re adding, subtracting, multiplying, or dividing, this calculator has got you covered. 
+        </Typography>
+        <hr/>
+        <Typography variant='subtitle2'>
+          HTML - CSS 
+        </Typography>
+       <Typography>
+        <div className="overlay">
+          <div>
+            <a href='https://github.com/Briantahiel/ImaxVentasGit' target="_blank" rel="noopener noreferrer">Github</a>
+          </div>
+          <div>
+            <a href='https://fancy-muffin-e118ab.netlify.app/' target="_blank" rel="noopener noreferrer">Demo</a>
           </div>
         </div>
        </Typography> 
@@ -518,110 +711,9 @@ const Home = () => {
     </Card>
     </div>
     </div>
-
-    
-
-
-      <div id='projects'></div>
-      <div className='projects-container'>
-        <h1>Projects</h1>
-        <div className='project-card_container'>
-            <div data-aos="fade-up" data-aos-duration="1000">
-            <div className='project-card'>
-            <img src={videogames} alt='Video games'/>
-            <div className="overlay">
-              <div>
-                <a href='https://github.com/Briantahiel/CSS_grid_layouts' target="_blank" rel="noopener noreferrer">Github</a>
-              </div>
-              <div>
-                <a href='https://briantahiel.github.io/CSS_grid_layouts/' target="_blank" rel="noopener noreferrer">Demo</a>
-              </div>
-            </div>
-            </div>
-            </div>
-            <div data-aos="fade-up" data-aos-duration="1000">
-            <div className='project-card'>
-            <img src={app2d2} alt='Landing Page'/>
-            <div className="overlay">
-              <div>
-                <a href='https://github.com/Briantahiel/Responsive_Layouts' target="_blank" rel="noopener noreferrer">Github</a>
-              </div>
-              <div>
-                <a href='https://briantahiel.github.io/Responsive_Layouts/' target="_blank" rel="noopener noreferrer">Demo</a>
-              </div>
-            </div>
-            </div>
-            </div>
-            <div data-aos="fade-up" data-aos-duration="1000">
-            <div className='project-card'>
-            <img src={crud} alt='Crud'/>
-            <div className="overlay">
-              <div>
-                <a href='https://github.com/Briantahiel/Notes' target="_blank" rel="noopener noreferrer">Github</a>
-              </div>
-              <div>
-                <a href='https://briantahiel.github.io/Notes/' target="_blank" rel="noopener noreferrer">Demo</a>
-              </div>
-            </div>
-            </div>
-            </div>
-            <div data-aos="fade-up" data-aos-duration="1000">
-            <div className='project-card'>
-            <img src={encriptador} alt='Encriptador'/>
-            <div className="overlay">
-              <div>
-                <a href='https://github.com/Briantahiel/encryptor' target="_blank" rel="noopener noreferrer">Github</a>
-              </div>
-              <div>
-                <a href='https://briantahiel.github.io/encryptor/' target="_blank" rel="noopener noreferrer">Demo</a>
-              </div>
-            </div>
-            </div>
-            </div>
-            <div data-aos="fade-up" data-aos-duration="1000">
-            <div className='project-card'>
-            <img src={imax} alt='Landing Page'/>
-            <div className="overlay">
-              <div>
-                <a href='https://github.com/Briantahiel/ImaxVentasGit' target="_blank" rel="noopener noreferrer">Github</a>
-              </div>
-              <div>
-                <a href='https://fancy-muffin-e118ab.netlify.app/' target="_blank" rel="noopener noreferrer">Demo</a>
-              </div>
-            </div>
-            </div>
-            </div>
-            <div data-aos="fade-up" data-aos-duration="1000">
-            <div className='project-card'>
-            <img src={resto} alt='Landing Page'/>
-            <div className="overlay">
-              <div>
-                <a href='https://github.com/Briantahiel/Bar' target="_blank" rel="noopener noreferrer">Github</a>
-              </div>
-              <div>
-                <a href='https://neon-souffle-2902c9.netlify.app/' target="_blank" rel="noopener noreferrer">Demo</a>
-              </div>
-            </div>
-            </div>
-            </div>
-            <div data-aos="fade-up" data-aos-duration="1000">
-            <div className='project-card'>
-            <img src={calculator} alt='Calculator'/>
-            <div className="overlay">
-              <div>
-                <a href='https://briantahiel.github.io/Calculator/' target="_blank" rel="noopener noreferrer">Github</a>
-              </div>
-              <div>
-                <a href='https://github.com/Briantahiel/Calculator' target="_blank" rel="noopener noreferrer">Demo</a>
-              </div>
-            </div>
-            </div>
-            </div>
-        </div>
-      </div>
-      <footer>
-        <p>All rights reserved. Made with love.</p>
-      </footer>
+    <footer>
+      <p>All rights reserved. Made with love.</p>
+    </footer>
     </>
   );
 }
