@@ -77,218 +77,6 @@ h4 {
   height: 30px;
 }
 
-/* .main-container {
-  overflow-y: hidden;
-  overflow: hidden;
-  height: 100vh;
-} */
-.custom-cursor {
-  position: relative;
-  width: 80px;
-  height: 80px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url('./assets/thread.png');
-  pointer-events: none; 
-  z-index: 1;
-  overflow: hidden;
-  overflow-x: hidden;
-}
-
-.wrapper {
-  width: 100%;
-  height: 100%;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-}
-.wrapper h1.glitch {
-  color: white;
-  font-family: sans-serif;
-  font-weight: 800;
-  position: relative;
-  font-size: 50px;
-  padding: 30px;
-  user-select: none;
-}
-.wrapper h1.glitch::before, .wrapper h1.glitch::after {
-  padding: 30px;
-  color: white;
-  content: "FRONT END";
-  position: absolute;
-  background: black;
-  overflow: hidden;
-  top: 0;
-}
-.wrapper h1.glitch::before {
-  left: 3px;
-  text-shadow: -2px 0 red;
-  animation-name: glitch-animation-1;
-  animation-duration: 2s;
-  animation-timing-function: linear;
-  animation-delay: 0s;
-  animation-iteration-count: infinite;
-  animation-direction: reverse-alternate;
-}
-.wrapper h1.glitch::after {
-  left: -3px;
-  text-shadow: -2px 0 blue;
-  animation-name: glitch-animation-2;
-  animation-duration: 2s;
-  animation-timing-function: linear;
-  animation-delay: 0s;
-  animation-iteration-count: infinite;
-  animation-direction: reverse-alternate;
-}
-
-@keyframes glitch-animation-1 {
-  0% {
-    clip: rect(115px, 350px, 134px, 30px);
-  }
-  5% {
-    clip: rect(134px, 350px, 149px, 30px);
-  }
-  10% {
-    clip: rect(118px, 350px, 134px, 30px);
-  }
-  15% {
-    clip: rect(50px, 350px, 33px, 30px);
-  }
-  20% {
-    clip: rect(71px, 350px, 61px, 30px);
-  }
-  25% {
-    clip: rect(54px, 350px, 126px, 30px);
-  }
-  30% {
-    clip: rect(106px, 350px, 109px, 30px);
-  }
-  35% {
-    clip: rect(102px, 350px, 57px, 30px);
-  }
-  40% {
-    clip: rect(23px, 350px, 22px, 30px);
-  }
-  45% {
-    clip: rect(146px, 350px, 48px, 30px);
-  }
-  50% {
-    clip: rect(118px, 350px, 34px, 30px);
-  }
-  55% {
-    clip: rect(3px, 350px, 53px, 30px);
-  }
-  60% {
-    clip: rect(139px, 350px, 118px, 30px);
-  }
-  65% {
-    clip: rect(138px, 350px, 107px, 30px);
-  }
-  70% {
-    clip: rect(133px, 350px, 138px, 30px);
-  }
-  75% {
-    clip: rect(144px, 350px, 89px, 30px);
-  }
-  80% {
-    clip: rect(80px, 350px, 113px, 30px);
-  }
-  85% {
-    clip: rect(62px, 350px, 56px, 30px);
-  }
-  90% {
-    clip: rect(112px, 350px, 91px, 30px);
-  }
-  95% {
-    clip: rect(86px, 350px, 38px, 30px);
-  }
-  100% {
-    clip: rect(120px, 350px, 52px, 30px);
-  }
-}
-@keyframes glitch-animation-2 {
-  0% {
-    clip: rect(39px, 350px, 30px, 30px);
-  }
-  5% {
-    clip: rect(127px, 350px, 120px, 30px);
-  }
-  10% {
-    clip: rect(90px, 350px, 4px, 30px);
-  }
-  15% {
-    clip: rect(48px, 350px, 69px, 30px);
-  }
-  20% {
-    clip: rect(135px, 350px, 9px, 30px);
-  }
-  25% {
-    clip: rect(54px, 350px, 123px, 30px);
-  }
-  30% {
-    clip: rect(116px, 350px, 112px, 30px);
-  }
-  35% {
-    clip: rect(105px, 350px, 22px, 30px);
-  }
-  40% {
-    clip: rect(132px, 350px, 150px, 30px);
-  }
-  45% {
-    clip: rect(144px, 350px, 100px, 30px);
-  }
-  50% {
-    clip: rect(39px, 350px, 51px, 30px);
-  }
-  55% {
-    clip: rect(89px, 350px, 30px, 30px);
-  }
-  60% {
-    clip: rect(48px, 350px, 19px, 30px);
-  }
-  65% {
-    clip: rect(14px, 350px, 136px, 30px);
-  }
-  70% {
-    clip: rect(52px, 350px, 45px, 30px);
-  }
-  75% {
-    clip: rect(114px, 350px, 45px, 30px);
-  }
-  80% {
-    clip: rect(17px, 350px, 13px, 30px);
-  }
-  85% {
-    clip: rect(132px, 350px, 22px, 30px);
-  }
-  90% {
-    clip: rect(42px, 350px, 47px, 30px);
-  }
-  95% {
-    clip: rect(140px, 350px, 97px, 30px);
-  }
-  100% {
-    clip: rect(42px, 350px, 116px, 30px);
-  }
-}
-
-.parallax-container-img img {
-  width: 200px;
-  height: 200px;
-  z-index: -2;
-}
-
-.parallax-container img{
-  overflow: hidden;
-  width: 200px;
-  height: 200px;
-/*   filter: blur(5px);
-  opacity: 0.4;
-  position: absolute; */
-}
-/* .navbar-toggle{
-  display: none;
-} */
 .menu-container {
   position: fixed;
   display: flex;
@@ -306,15 +94,6 @@ h4 {
   width: 100%;
   z-index: 1;
 }
-/* .menu-links li {
-  cursor: pointer;
-  height: 100px;
-  margin: 20px;
-  margin: auto;
-  text-align: right;
-  list-style: none;
-  color: white;
-} */
 
 .menu-links a:hover {
   letter-spacing: 2px;
@@ -337,7 +116,6 @@ h4 {
   justify-content: space-between;
   cursor: pointer;
 }
-
 .bar {
   width: 100%;
   height: 4px;
@@ -354,8 +132,6 @@ h4 {
   background-color: #171321; 
   position: relative;
   border-bottom: 5px solid #f3ac42;
-  /* border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px; */
 }
 
 .menu-links ul li {
@@ -391,10 +167,6 @@ h4 {
 .description-container {
   position: absolute;
   user-select: none;
-  /* top: 33%;
-  left: 10%; */
-  /* background-color: rgba(0, 0, 0, 0.3); */
-  /* z-index: -1; */
   display: flex;
   height: 100%;
   width: 100%;
@@ -402,55 +174,24 @@ h4 {
 }
 .description-content {
   position: relative;
-  /* display: flex;  */
-  /* background-color: rgba(0, 0, 0, 0.8); 
-  backdrop-filter: blur(1px); */
-  color: #171321;
   display: flex;
   flex-direction: column;
   margin: auto;
   font-family: 'Kanit', sans-serif;
   font-weight: 900;
-  
-  /* border-radius: 50%;
-  flex-direction: column;
-  justify-content: center;
-  width: 360px;
-  height: 360px; */
-  /* z-index: 1; */
   box-sizing: border-box;
 }
-/* .description-container span:nth-child(1) {
-  font-size: min(12rem);
-  line-height: 0.8;
 
-}
-.description-container span:nth-child(2) {
-  text-align: center;
-  font-size: min(5.2rem);
-  line-height: 1;
-  color: white;
-  background-color: black;
-  width: 98%;
-  margin: auto;
-}
-.description-container span:nth-child(3) {
-  font-size: min(4rem);
-  line-height: 0.8;
-  text-align: center;
-} */
 #about {
   height: 40px;
 }
 .description-container span:nth-child(1) {
-  /* font-size: 11vw; */
   font-size: 150px;
   line-height: 0.8;
 }
 
 .description-container span:nth-child(2) {
   text-align: center;
-  /* font-size: 4.7vw; */
   font-size: 65px;
   line-height: 1;
   color: #ffff;
@@ -460,24 +201,11 @@ h4 {
 }
 
 .description-container span:nth-child(3) {
-  /* font-size: 3vw; */
   font-size: 40px;
   line-height: 0.8;
   text-align: center;
 }
 
-/* .circle {
-  position: relative;
-  margin: -10%;
-  background-color: rgba(0, 0, 0, 0.8); 
-  backdrop-filter: blur(1px);
-  border-radius: 50%;
-  flex-direction: column;
-  justify-content: center;
-  width: 320px;
-  height: 320px;
-  z-index: -1;
-} */
 /*////////SOCIAL MEDIA////////*/
 .social-container {
   background-color: #171321; 
@@ -492,10 +220,6 @@ h4 {
   position: absolute;
   top: 45%;
   left: 0%;
-  /* border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px; */
 }
 .social-container img {
   width: 30px;
@@ -540,23 +264,6 @@ h4 {
   height: 100vh;
   width: 100%;
 }
-/* .background-img::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #2adbf7; 
-  opacity: 0.9; 
-} */
-/*/////////////////////////*/
-
-/* .main-container{
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: hidden;
-} */
 
 /*/////////SKILLS///////////*/
 .icon-container {
@@ -628,22 +335,43 @@ h4 {
   position: relative;
   margin: 10px;
 }
-
-.project-card .overlay {
+#card-container {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+}
+#card-project {
+  position: relative;
+  max-width: 310px;
+  height: 100%;
+  margin: 10px;
+  transition: 0.3s ease-in-out;
+}
+#card-project:hover {
+  box-shadow: 7px 6px 36px -1px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 7px 6px 36px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 7px 6px 36px -1px rgba(0,0,0,0.75);
+  transform: translateX(-2px);
+}
+.overlay {
   position: absolute;
   top: 0;
   left: 0;
-  width: 310px;
-  height: 190px;
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.5);
-  opacity: 0;
+  visibility: hidden;
   transition: opacity 0.3s ease;
 }
-
+.overlay a {
+   color: whitesmoke;
+}
 .project-card:hover .overlay {
   opacity: 1;
 }
@@ -651,7 +379,9 @@ h4 {
 .project-card .overlay div {
   margin-bottom: 10px;
 }
-
+#card-project:hover .overlay {
+  visibility: visible;
+}
 .project-card .overlay a {
   color: #fff;
   text-decoration: none;

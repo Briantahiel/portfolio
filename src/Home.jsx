@@ -34,11 +34,10 @@ import portfolio from "./assets/portfolio.jpg";
 import tecnostore from "./assets/tecnoStore.jpg";
 import materialui from "./assets/materialUI.svg";
 import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+
 
 
 const Home = () => {
@@ -221,73 +220,312 @@ const Home = () => {
         </div>
         <br />
       </div>
-      <Card sx={{ maxWidth: 345 }}>
+
+      <div id='card-container'>
+      <div id='card-project'>
+      <Card sx={{ maxWidth: 310 }} >
       <CardMedia
         component="img"
-        alt="green iguana"
-        height="140"
-        image="/static/images/cards/contemplative-reptile.jpg"
+        alt="Dental Clinic"
+        height="100%"
+        image={consultorio}
       />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-          Lizard
+      <CardContent >
+        <Typography gutterBottom variant="h6" component="div">
+          Dental Clinic
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+        As part of my university programming class, I undertook a project to develop an appointment scheduling system for a dental clinic. This innovative system empowers patients to conveniently request and manage their appointments with ease.
         </Typography>
+        <hr/>
+        <Typography variant='subtitle2'>
+          HTML - CSS - BOOTSTRAP - JAVASCRIPT - SQL - REACT 
+        </Typography>
+       <Typography>
+        <div className="overlay">
+          <div>
+            <a href='/'>Private Github</a>
+          </div>
+          <div>
+            <a href='/'>Coming Soon</a>
+          </div>
+        </div>
+       </Typography> 
+      
       </CardContent>
-      <CardActions>
-        <Button size="small">Share</Button>
-        <Button size="small">Learn More</Button>
-      </CardActions>
     </Card>
+    </div>
+    <div id='card-project'>
+      <Card sx={{ maxWidth: 310 }} >
+      <CardMedia
+        component="img"
+        alt="TechnoStore"
+        height="173px"
+        image={tecnostore}
+      />
+      <CardContent >
+        <Typography gutterBottom variant="h6" component="div">
+          TechnoStore
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+        This E-commerce project oriented to retail tech companies allowing them to manage product stock, sales for individual clients who are registered on the website, and to encourage customers loyalty through a newsletter subscription.
+        </Typography>
+        <hr/>
+        <Typography variant='subtitle2'>
+          HTML - CSS - BOOTSTRAP - JAVASCRIPT - REACT
+        </Typography>
+       <Typography>
+        <div className="overlay">
+          <div>
+            <a href='https://github.com/No-Country/c6-22' target="_blank" rel="noopener noreferrer">Github</a>
+          </div>
+          <div>
+            <a href='https://tecno-store.vercel.app/' target="_blank" rel="noopener noreferrer">Demo</a>
+          </div>
+        </div>
+       </Typography> 
+      </CardContent>
+    </Card>
+    </div>
+    <div id='card-project'>
+      <Card sx={{ maxWidth: 310 }} >
+      <CardMedia
+        component="img"
+        alt="TechnoStore"
+        height="173px"
+        image={ecommerce}
+      />
+      <CardContent >
+        <Typography gutterBottom variant="h6" component="div">
+          E-Commerce
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+        Our tech-savvy ecommerce platform! Where you can browse, search, and filter through a wide range of cutting-edge tech products. Easily add your favorites to the cart and enjoy a seamless shopping experience.
+        </Typography>
+        <hr/>
+        <Typography variant='subtitle2'>
+          HTML - CSS - BOOTSTRAP - JAVASCRIPT - REACT
+        </Typography>
+       <Typography>
+        <div className="overlay">
+          <div>
+            <a href='/'>Private Github</a>
+          </div>
+          <div>
+            <a href='/'>Coming Soon</a>
+          </div>
+        </div>
+       </Typography> 
+      </CardContent>
+    </Card>
+    </div>
+
+    <div id='card-project'>
+      <Card sx={{ maxWidth: 310 }} >
+      <CardMedia
+        component="img"
+        alt="Portfolio"
+        height="100%"
+        image={portfolio}
+      />
+      <CardContent >
+        <Typography gutterBottom variant="h6" component="div">
+          Portfolio
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+         Find my personal projects, university assignments, and various courses I have completed. With a passion for technology and a strong commitment to continuous learning, I have crafted this space to exhibit my diverse skills and experiences.
+        </Typography>
+        <hr/>
+        <Typography variant='subtitle2'>
+          HTML - CSS - MATERIAL UI - JAVASCRIPT - REACT
+        </Typography>
+       <Typography>
+        <div className="overlay">
+          <div>
+            <a href='/'>Private Github</a>
+          </div>
+          <div>
+            <a href='/'>Demo</a>
+          </div>
+        </div>
+       </Typography> 
+      </CardContent>
+    </Card>
+    </div>
+    <div id='card-project'>
+      <Card sx={{ maxWidth: 310 }} >
+      <CardMedia
+        component="img"
+        alt="Marvel"
+        height="100%"
+        image={marvel}
+      />
+      <CardContent >
+        <Typography gutterBottom variant="h6" component="div">
+          Marvel Api
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          Explore the Marvel Universe with our dynamic Marvel Character Search! Powered by an API, our search engine brings you a vast collection of beloved Marvel characters, each with their names, photos, and descriptions
+        </Typography>
+        <hr/>
+        <Typography variant='subtitle2'>
+          HTML - CSS - JAVASCRIPT - REACT 
+        </Typography>
+        <br />
+       <Typography>
+        <div className="overlay">
+          <div>
+            <a href='https://github.com/Briantahiel/MarvelApi' target="_blank" rel="noopener noreferrer">Github</a>
+          </div>
+          <div>
+            <a href="https://silver-selkie-4b5577.netlify.app/" target="_blank" rel="noopener noreferrer">Demo</a>
+          </div>
+        </div>
+       </Typography> 
+      </CardContent>
+    </Card>
+    </div>
+    <div id='card-project'>
+      <Card sx={{ maxWidth: 310 }} >
+      <CardMedia
+        component="img"
+        alt="Weather App"
+        height="100%"
+        image={weather}
+      />
+      <CardContent >
+        <Typography gutterBottom variant="h6" component="div">
+          Weather App
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          Welcome to our Weather App, your gateway to real-time weather updates from around the world! Utilizing a powerful API, our app lets you effortlessly search and access accurate temperature and weather conditions for any location.
+        </Typography>
+        <hr/>
+        <Typography variant='subtitle2'>
+          HTML - CSS - JAVASCRIPT - REACT
+        </Typography>
+        <br />
+       <Typography>
+        <div className="overlay">
+          <div>
+            <a href='https://github.com/Briantahiel/WeatherApp' target="_blank" rel="noopener noreferrer">Github</a>
+          </div>
+          <div>
+            <a href="https://incredible-beijinho-896f42.netlify.app/" target="_blank" rel="noopener noreferrer">Demo</a>
+          </div>
+        </div>
+       </Typography> 
+      </CardContent>
+    </Card>
+    </div>
+    <div id='card-project'>
+      <Card sx={{ maxWidth: 310 }} >
+      <CardMedia
+        component="img"
+        alt="Hangman"
+        height="100%"
+        image={hangman}
+      />
+      <CardContent >
+        <Typography gutterBottom variant="h6" component="div">
+          Hangman
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+         Welcome to Hangman, an interactive word-guessing game crafted with HTML, CSS, and JavaScript! Challenge yourself to solve the mystery word, letter by letter, or load your own custom words to keep the fun going.
+        </Typography>
+        <hr/>
+        <Typography variant='subtitle2'>
+          HTML - CSS - JAVASCRIPT 
+        </Typography>
+        <br />
+       <Typography>
+        <div className="overlay">
+          <div>
+            <a href='https://github.com/Briantahiel/Hangman' target="_blank" rel="noopener noreferrer">Github</a>
+          </div>
+          <div>
+            <a href="https://briantahiel.github.io/Hangman/" target="_blank" rel="noopener noreferrer">Demo</a>
+          </div>
+        </div>
+       </Typography> 
+      </CardContent>
+    </Card>
+    </div>
+    <div id='card-project'>
+      <Card sx={{ maxWidth: 310 }} >
+      <CardMedia
+        component="img"
+        alt="Rock, Paper, Scissors"
+        height="100%"
+        image={rps}
+      />
+      <CardContent >
+        <Typography gutterBottom variant="h6" component="div">
+          Rock, Paper, Scissors
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          Get ready for a classic gaming showdown with our Rock Paper Scissors game, brought to life with HTML, CSS, and JavaScript! Challenge the computer in an exhilarating battle of wits and luck. Choose your move wisely 
+        </Typography>
+        <hr/>
+        <Typography variant='subtitle2'>
+          HTML - CSS - JAVASCRIPT
+        </Typography>
+        <br />
+       <Typography>
+        <div className="overlay">
+          <div>
+            <a href='https://github.com/Briantahiel/Rock_paper_scissors' target="_blank" rel="noopener noreferrer">Github</a>
+          </div>
+          <div>
+            <a href="https://meek-shortbread-55732c.netlify.app/" target="_blank" rel="noopener noreferrer">Demo</a>
+          </div>
+        </div>
+       </Typography> 
+      </CardContent>
+    </Card>
+    </div>
+    <div id='card-project'>
+      <Card sx={{ maxWidth: 310 }} >
+      <CardMedia
+        component="img"
+        alt="Encryptor"
+        height="100%"
+        image={encriptador}
+      />
+      <CardContent >
+        <Typography gutterBottom variant="h6" component="div">
+          Encryptor
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          Keep your communications secure and confidential by encoding your texts with our user-friendly interface. Whether you want to protect sensitive information or simply add an element of fun to your messages, our app has you covered 
+        </Typography>
+        <hr/>
+        <Typography variant='subtitle2'>
+          HTML - CSS - JAVASCRIPT
+        </Typography>
+        <br />
+       <Typography>
+        <div className="overlay">
+          <div>
+            <a href='https://github.com/Briantahiel/Rock_paper_scissors' target="_blank" rel="noopener noreferrer">Github</a>
+          </div>
+          <div>
+            <a href="https://meek-shortbread-55732c.netlify.app/" target="_blank" rel="noopener noreferrer">Demo</a>
+          </div>
+        </div>
+       </Typography> 
+      </CardContent>
+    </Card>
+    </div>
+    </div>
+
+    
+
+
       <div id='projects'></div>
       <div className='projects-container'>
         <h1>Projects</h1>
         <div className='project-card_container'>
-        <div data-aos="fade-up" data-aos-duration="1000">
-          <div className='project-card'>
-            <img src={consultorio} alt='Consultorio Dentista'/>
-            <div className="overlay">
-              <div>
-                <a href='#'>Private Github</a>
-              </div>
-              <div>
-                <a href='/'>Coming Soon</a>
-              </div>
-              <div className='proyect-description'>
-                <p></p>
-              </div>
-            </div>
-          </div>
-          </div>
-          <div data-aos="fade-up" data-aos-duration="1000">
-          <div className='project-card'>
-            <img src={hangman} alt='Hangman'/>
-            <div className="overlay">
-              <div>
-                <a href='https://github.com/Briantahiel/Hangman' target="_blank" rel="noopener noreferrer">Github</a>
-              </div>
-              <div>
-              <a href="https://briantahiel.github.io/Hangman/" target="_blank" rel="noopener noreferrer">Demo</a>
-              </div>
-            </div>
-          </div>
-          </div>
-          <div data-aos="fade-up" data-aos-duration="1000">
-          <div className='project-card'>
-            <img src={marvel} alt='Marvel Api'/>
-            <div className="overlay">
-              <div>
-                <a href='https://github.com/Briantahiel/MarvelApi' target="_blank" rel="noopener noreferrer">Github</a>
-              </div>
-              <div>
-                <a href='https://silver-selkie-4b5577.netlify.app/' target="_blank" rel="noopener noreferrer">Demo</a>
-              </div>
-            </div>
-            </div>
-            </div>
             <div data-aos="fade-up" data-aos-duration="1000">
             <div className='project-card'>
             <img src={videogames} alt='Video games'/>
@@ -310,19 +548,6 @@ const Home = () => {
               </div>
               <div>
                 <a href='https://briantahiel.github.io/Responsive_Layouts/' target="_blank" rel="noopener noreferrer">Demo</a>
-              </div>
-            </div>
-            </div>
-            </div>
-            <div data-aos="fade-up" data-aos-duration="1000">
-            <div className='project-card'>
-            <img src={rps} alt='Rock Paper Scissors'/>
-            <div className="overlay">
-              <div>
-                <a href='https://github.com/Briantahiel/Rock_paper_scissors' target="_blank" rel="noopener noreferrer">Github</a>
-              </div>
-              <div>
-                <a href='https://meek-shortbread-55732c.netlify.app/' target="_blank" rel="noopener noreferrer">Demo</a>
               </div>
             </div>
             </div>
@@ -355,19 +580,6 @@ const Home = () => {
             </div>
             <div data-aos="fade-up" data-aos-duration="1000">
             <div className='project-card'>
-            <img src={weather} alt='Weather'/>
-            <div className="overlay">
-              <div>
-                <a href='https://github.com/Briantahiel/WeatherApp' target="_blank" rel="noopener noreferrer">Github</a>
-              </div>
-              <div>
-                <a href='https://incredible-beijinho-896f42.netlify.app/' target="_blank" rel="noopener noreferrer">Demo</a>
-              </div>
-            </div>
-            </div>
-            </div>
-            <div data-aos="fade-up" data-aos-duration="1000">
-            <div className='project-card'>
             <img src={imax} alt='Landing Page'/>
             <div className="overlay">
               <div>
@@ -394,19 +606,6 @@ const Home = () => {
             </div>
             <div data-aos="fade-up" data-aos-duration="1000">
             <div className='project-card'>
-            <img src={ecommerce} alt='E-commerce'/>
-            <div className="overlay">
-              <div>
-                <a href='#' target="_blank" rel="noopener noreferrer">Private Github</a>
-              </div>
-              <div>
-                <a href='/'>Coming Soon</a>
-              </div>
-            </div>
-            </div>
-            </div>
-            <div data-aos="fade-up" data-aos-duration="1000">
-            <div className='project-card'>
             <img src={calculator} alt='Calculator'/>
             <div className="overlay">
               <div>
@@ -414,32 +613,6 @@ const Home = () => {
               </div>
               <div>
                 <a href='https://github.com/Briantahiel/Calculator' target="_blank" rel="noopener noreferrer">Demo</a>
-              </div>
-            </div>
-            </div>
-            </div>
-            <div data-aos="fade-up" data-aos-duration="1000">
-            <div className='project-card'>
-            <img src={portfolio} alt='Calculator'/>
-            <div className="overlay">
-              <div>
-                <a href='#' target="_blank" rel="noopener noreferrer">Private Github</a>
-              </div>
-              <div>
-                <a href='/'>Coming Soon</a>
-              </div>
-            </div>
-            </div>
-            </div>
-            <div data-aos="fade-up" data-aos-duration="1000">
-            <div className='project-card'>
-            <img src={tecnostore} alt='TecnoStore'/>
-            <div className="overlay">
-              <div>
-                <a href='https://github.com/No-Country/c6-22' target="_blank" rel="noopener noreferrer">Github</a>
-              </div>
-              <div>
-                <a href='https://tecno-store.vercel.app/' target="_blank" rel="noopener noreferrer">Demo</a>
               </div>
             </div>
             </div>
