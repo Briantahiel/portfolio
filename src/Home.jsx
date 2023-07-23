@@ -214,10 +214,10 @@ const Home = () => {
         </div>
         <br />
       </div>
-      <div>
+      <div className='journey'>
         <h1>When Technology Meets Curiosity: A Personal Journey</h1>
-        <h4></h4>   
-        </div>
+        <h4>As a naturally curious and creatively-driven person, my passion for technology takes center stage in this exciting journey. I dove headlong into the realm of coding, eager to push the boundaries and explore the limitless possibilities that software development offers. With each line of code, I discover new avenues for innovation and the power technology has to shape the world around us. Embracing the company of my loved ones, I find solace in life&apos;s simplest moments, while the insatiable desire to explore propels me forward on an extraordinary journey of growth and achievement. This convergence of curiosity and technology has become the driving force behind my pursuit of knowledge, and it fuels my determination to make a positive impact through the art of programming.</h4>
+      </div>
       <div id='projects'></div>
       <h1>Projects</h1>
       <div id='card-container'>
@@ -561,7 +561,7 @@ const Home = () => {
           Notes
         </Typography>
         <Typography variant="body2" color="text.secondary">
-        Crafted as part of a practical project. Experience seamless calculations with this user-friendly and efficient tool. Whether you&apos;re adding, subtracting, multiplying, or dividing, this calculator has got you covered. 
+        Crafted as part of a practical project, this powerful tool built with HTML, CSS, and React, allows you to manage and manipulate your data with ease. Whether it&apos;s creating or deleting your notes, this user-friendly app streamlines your tasks.
         </Typography>
         <hr/>
         <Typography variant='subtitle2'>
@@ -590,10 +590,10 @@ const Home = () => {
       />
       <CardContent >
         <Typography gutterBottom variant="h6" component="div">
-          Notes
+          Landing Page
         </Typography>
         <Typography variant="body2" color="text.secondary">
-        Crafted as part of a practical project. Experience seamless calculations with this user-friendly and efficient tool. Whether you&apos;re adding, subtracting, multiplying, or dividing, this calculator has got you covered. 
+        Stay in the loop! <br /> with our one-page gaming news site! Discover the latest updates and insights from the gaming world. Our user-friendly design makes browsing a breeze. Join us now and never miss a gaming beat!
         </Typography>
         <hr/>
         <Typography variant='subtitle2'>
@@ -625,7 +625,7 @@ const Home = () => {
           Dantonio Restaurant
         </Typography>
         <Typography variant="body2" color="text.secondary">
-        Crafted as part of a practical project. Experience seamless calculations with this user-friendly and efficient tool. Whether you&apos;re adding, subtracting, multiplying, or dividing, this calculator has got you covered. 
+        Dive into a delightful experience, exploring our menu filled with mouthwatering dishes. Discover our restaurant&apos;s unique story, ambiance, and offerings. Get ready to savor an unforgettable dining experience on our enticing restaurant website!
         </Typography>
         <hr/>
         <Typography variant='subtitle2'>
@@ -657,7 +657,7 @@ const Home = () => {
           App2D2
         </Typography>
         <Typography variant="body2" color="text.secondary">
-        Crafted as part of a practical project. Experience seamless calculations with this user-friendly and efficient tool. Whether you&apos;re adding, subtracting, multiplying, or dividing, this calculator has got you covered. 
+        One-stop shop for custom app solutions. Say goodbye to extra maintenance costs as our service includes ongoing support and updates. Our specialized and exclusive team is dedicated to crafting incredible projects just for you.
         </Typography>
         <hr/>
         <Typography variant='subtitle2'>
@@ -689,7 +689,7 @@ const Home = () => {
           IMAXVentas
         </Typography>
         <Typography variant="body2" color="text.secondary">
-        Crafted as part of a practical project. Experience seamless calculations with this user-friendly and efficient tool. Whether you&apos;re adding, subtracting, multiplying, or dividing, this calculator has got you covered. 
+        Our real estate hub is your gateway to finding your dream property. Discover a seamless browsing experience, exploring a wide range of real estate listings. Our expert team is ready to assist you in every step of your property journey.
         </Typography>
         <hr/>
         <Typography variant='subtitle2'>
@@ -710,7 +710,7 @@ const Home = () => {
     </div>
     </div>
     <footer>
-      <p>All rights reserved. Made with love.</p>
+    <p>&reg; 2023 Brian G. All rights reserved. Made with ❤</p>
     </footer>
     
     </>

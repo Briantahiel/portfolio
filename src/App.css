@@ -335,3 +335,8 @@ footer {
   width: 100%;
   text-align: center;
 }
+.journey {
+  max-width: 860px;
+  margin: 100px auto auto;
+  padding: 10px;
+}
