@@ -1,5 +1,5 @@
 
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import './App.css';
 import linkedin from "./assets/linkedin.svg";
 import github from "./assets/github.svg";
@@ -110,42 +110,35 @@ const Home = () => {
     };
   }, []);
 
-  const [isActive, setIsActive] = useState(false);
+  // const [isActive, setIsActive] = useState(false);
 
-  const toggleMenu = () => {
-    setIsActive(!isActive);
-  };
+  // const toggleMenu = () => {
+  //   setIsActive(!isActive);
+  // };
 
   return (
     <>
-    <div className='main-container bg_color'>
-      <div className='menu-container' data-aos="fade-down" >
+    <div className='bg_color'>
+      <div className='menu-container'>
+      {/* data-aos="fade-down" */}
         <div className='menu-logo'>
           <p>BMG</p> 
         </div>
-          <div className={`logo ${isActive ? 'active' : ''}`} onClick={toggleMenu}>
-            <div className="bar"></div>
-            <div className="bar"></div>
-            <div className="bar"></div>
-        </div> 
-      </div>
-      <div className={`menu-links ${isActive ? 'active' : ''}`}>
+       <div className='menu-links'>
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#about">About</a></li>
+          <li><a href="#technologies">Technologies</a></li>
           <li><a href="#projects">Projects</a></li>
-          {/* <li><a href="#contact">Contact</a></li> */}
         </ul>
+      </div>
       </div>
       <div className='description-container'>
         <div className='description-content'>
-          <span>BRIAN</span>
-          <span>PROGRAMMER</span>
-          <span>FRONT END DEVELOPER</span>
+          <span>Hi, I&apos;m Brian</span>
+          <span>Front End Developer</span>
         </div>
-      </div>
-      </div>
-      <div data-aos="fade-right" className='social-container'>
+      <div className='social-container'>
         <div className='social-icon'>
           <a href='https://www.linkedin.com/in/brian-g%C3%B3mez/' target="_blank" rel="noopener noreferrer"><img src={linkedin} alt='Linkedin'/></a>
         </div>
@@ -153,14 +146,14 @@ const Home = () => {
           <a href='https://github.com/Briantahiel' target="_blank" rel="noopener noreferrer"><img src={github} alt='Github'/></a>
         </div>
       </div>
-      {/* <div className="parallax-container">
-        <img className="parallax-image" src={parallax} alt="Parallax Image" />
-      </div> */}
+      </div>
+      </div>
      <div id='about'></div> 
       <div className='about-container'>
       <div id='container-about'>
-      <div className='about-content about_text' data-aos="fade-right" >
-        <h1>About me.</h1>
+      <div className='about-content about_text'>
+        <h1>About me.</h1> 
+        {/* data-aos="fade-right" */}
         <h4><strong>Hello, I&apos;m Brian</strong>, a university-trained programming technician. With a curious and perfectionist nature, I am always eager to expand my knowledge. My passion for technology has motivated me to pursue various courses and engage in personal projects alongside my university studies. Now that I have successfully completed my academic journey, I am actively seeking an opportunity to contribute to the world of technology. If you have any potential opportunities available, please don&apos;t hesitate to contact me <a href='https://www.linkedin.com/in/brian-g%C3%B3mez/' target="_blank" rel="noopener noreferrer">here.</a> Or you can check out my <a href='https://github.com/Briantahiel' target="_blank" rel="noopener noreferrer">Github.</a></h4>
         </div>
         <div className='img-content img_section'>
@@ -170,6 +163,7 @@ const Home = () => {
         </div>
       </div>
       {/* </div> */}
+      <div id='technologies'></div> 
       <div className='icon-container'>
         <h1>Technologies and Tools.</h1><br />
         <div className='icons'>
@@ -220,6 +214,10 @@ const Home = () => {
         </div>
         <br />
       </div>
+      <div>
+        <h1>When Technology Meets Curiosity: A Personal Journey</h1>
+        <h4></h4>   
+        </div>
       <div id='projects'></div>
       <h1>Projects</h1>
       <div id='card-container'>
@@ -714,6 +712,7 @@ const Home = () => {
     <footer>
       <p>All rights reserved. Made with love.</p>
     </footer>
+    
     </>
   );
 }
