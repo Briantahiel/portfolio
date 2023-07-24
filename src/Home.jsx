@@ -122,7 +122,7 @@ const Home = () => {
       <div className='menu-container'>
       {/* data-aos="fade-down" */}
         <div className='menu-logo'>
-          <p>BMG</p> 
+          <p>BG</p> 
         </div>
        <div className='menu-links'>
         <ul>
@@ -538,10 +538,12 @@ const Home = () => {
        <Typography>
         <div className="overlay">
           <div>
-            <a href='https://briantahiel.github.io/Calculator/' target="_blank" rel="noopener noreferrer">Github</a>
+          <a href='https://github.com/Briantahiel/Calculator' target="_blank" rel="noopener noreferrer">Github</a>
+           
           </div>
-          <div>
-            <a href='https://github.com/Briantahiel/Calculator' target="_blank" rel="noopener noreferrer">Demo</a>
+          <div> 
+          <a href='https://briantahiel.github.io/Calculator/' target="_blank" rel="noopener noreferrer">Demo</a>
+            
           </div>
         </div>
        </Typography> 

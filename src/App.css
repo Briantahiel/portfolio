@@ -92,7 +92,14 @@ h4 {
 .menu-links {
   margin: auto;
 }
-
+.menu-logo p {
+  user-select: none;
+  position: relative;
+  line-height: 5px;
+  font-size: 2rem;
+  font-weight: 600;
+  cursor: pointer;
+}
 .menu-container a {
   text-decoration: none;
 }
@@ -123,7 +130,9 @@ h4 {
   }
   .description-container span:nth-child(2) {
     font-size: 2.2rem !important;
-
+  }
+  footer p {
+    font-size: .9rem;
   }
 }
 @media screen and (max-width: 480px) {
@@ -211,6 +220,7 @@ h4 {
   margin: auto;
   text-align: center;
   margin-bottom: 60px;
+  user-select: none;
 }
 .icons img {
   width: 66px;
@@ -239,6 +249,7 @@ h4 {
   opacity: 0;
   transition: opacity 0.3s ease;
 }
+
 .icon-img {
   position: relative;
   display: inline-block;
@@ -281,6 +292,7 @@ h4 {
   justify-content: space-around;
   flex-wrap: wrap;
   margin: auto;
+  user-select: none;
 }
 #card-project {
   position: relative;
@@ -309,8 +321,22 @@ h4 {
   visibility: hidden;
   transition: 0.3s ease;
 }
+.overlay div {
+  width: 120px;
+  margin: 5px;
+  text-align: center;
+  background-color: #171321;
+}
+.overlay div:hover {
+  background-color: rgb(238, 238, 238);
+}
 .overlay a {
    color: whitesmoke;
+   text-decoration: none;
+   font-weight: 300;
+}
+.overlay div:hover a {
+  color: #171321;
 }
 .project-card:hover .overlay {
   opacity: 1;
@@ -334,9 +360,11 @@ footer {
   height: 50px;
   width: 100%;
   text-align: center;
+  user-select: none;
 }
 .journey {
   max-width: 860px;
   margin: 100px auto auto;
   padding: 10px;
+  user-select: none;
 }
