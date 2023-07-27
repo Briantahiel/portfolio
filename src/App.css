@@ -45,6 +45,11 @@ h4 {
   padding: 20px;
   max-width: 540px;
 }
+.about_text a{
+  color: #171321;
+  text-decoration: none;
+  font-weight: 700;
+}
 .img-content {
   margin: auto;
   padding: 20px;

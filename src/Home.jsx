@@ -41,28 +41,6 @@ import Typography from '@mui/material/Typography';
 
 
 const Home = () => {
-  // useEffect(() => {
-  //   const cursor = document.querySelector('.custom-cursor');
-  //   const section = document.querySelector('#about');
-
-  //   section.addEventListener('mouseenter', () => {
-  //     cursor.classList.add('active');
-  //   });
-
-  //   section.addEventListener('mouseleave', () => {
-  //     cursor.classList.remove('active');
-  //   });
-
-  //   document.addEventListener('mousemove', (e) => {
-  //     if (cursor.classList.contains('active')) {
-  //       gsap.to(cursor, {
-  //         x: e.clientX,
-  //         y: e.clientY,
-  //         duration: .1,
-  //       });
-  //     }
-  //   });
-  // }, []);
 
   useEffect(() => {
   
@@ -110,17 +88,10 @@ const Home = () => {
     };
   }, []);
 
-  // const [isActive, setIsActive] = useState(false);
-
-  // const toggleMenu = () => {
-  //   setIsActive(!isActive);
-  // };
-
   return (
     <>
     <div className='bg_color'>
       <div className='menu-container'>
-      {/* data-aos="fade-down" */}
         <div className='menu-logo'>
           <p>BG</p> 
         </div>
@@ -153,8 +124,7 @@ const Home = () => {
       <div id='container-about'>
       <div className='about-content about_text'>
         <h1>About me.</h1> 
-        {/* data-aos="fade-right" */}
-        <h4><strong>Hello, I&apos;m Brian</strong>, a university-trained programming technician. With a curious and perfectionist nature, I am always eager to expand my knowledge. My passion for technology has motivated me to pursue various courses and engage in personal projects alongside my university studies. Now that I have successfully completed my academic journey, I am actively seeking an opportunity to contribute to the world of technology. If you have any potential opportunities available, please don&apos;t hesitate to contact me <a href='https://www.linkedin.com/in/brian-g%C3%B3mez/' target="_blank" rel="noopener noreferrer">here.</a> Or you can check out my <a href='https://github.com/Briantahiel' target="_blank" rel="noopener noreferrer">Github.</a></h4>
+        <h4><strong>Hello, I&apos;m Brian</strong>, a university-trained programming technician. With a curious and perfectionist nature, I am always eager to expand my knowledge. My passion for technology has motivated me to pursue various courses and engage in personal projects alongside my university studies. Now that I have successfully completed my academic journey, I am actively seeking an opportunity to contribute to the world of technology. If you have any potential opportunities available, please don&apos;t hesitate to contact me <a href='https://www.linkedin.com/in/brian-gómez/' target="_blank" rel="noopener noreferrer">here.</a> Or you can check out my <a href='https://github.com/Briantahiel' target="_blank" rel="noopener noreferrer">Github.</a></h4>
         </div>
         <div className='img-content img_section'>
           <img src={cat} className='parallax-image cat' alt='Cat'/>
@@ -162,7 +132,7 @@ const Home = () => {
         </div>
         </div>
       </div>
-      {/* </div> */}
+  
       <div id='technologies'></div> 
       <div className='icon-container'>
         <h1>Technologies and Tools.</h1><br />
