@@ -37,7 +37,7 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-
+import fintech from './assets/webPage.png';
 
 
 const Home = () => {
@@ -191,6 +191,39 @@ const Home = () => {
       <div id='projects'></div>
       <h1>Projects</h1>
       <div id='card-container'>
+      <div id='card-project'>
+      <Card sx={{ maxWidth: 310 }} >
+      <CardMedia
+        component="img"
+        alt="Fintech Solvers"
+        height="175px"
+        image={fintech}
+      />
+      <CardContent >
+        <Typography gutterBottom variant="h6" component="div">
+          Fintech Solvers
+        </Typography>
+        <Typography variant="body2" color="text.secondary">      
+          Our website, Fintech Solvers, offers innovative data solutions for fraud detection in financial transactions. Through ETL, EDA, and machine learning techniques, we analyze transactions and provide interactive dashboards for comprehensive insights.
+        </Typography>
+        <hr/>
+        <Typography variant='subtitle2'>
+          HTML - CSS - BOOTSTRAP - REACT 
+        </Typography>
+       <Typography>
+        <div className="overlay">
+          <div>
+          <a href='https://github.com/Briantahiel/Fintech-Solvers' target="_blank" rel="noopener noreferrer">Github</a>
+          </div>
+          <div>
+          <a href='https://fintech-solvers.netlify.app/' target="_blank" rel="noopener noreferrer">Demo</a>
+          </div>
+        </div>
+       </Typography> 
+      
+      </CardContent>
+    </Card>
+    </div>
       <div id='card-project'>
       <Card sx={{ maxWidth: 310 }} >
       <CardMedia
